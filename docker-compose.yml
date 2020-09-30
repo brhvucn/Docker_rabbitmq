@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  rabbitmq:
+    image:rabbitmq
+    ports: 
+      - 15672:15672
